@@ -1,2 +1,2 @@
-#Solutions of Competitive programming#
+#SolutionsOfCompetitiveProgramming#
 
