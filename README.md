@@ -1,2 +1,0 @@
-#Solutions_Of_Competitive_Programming#
-
