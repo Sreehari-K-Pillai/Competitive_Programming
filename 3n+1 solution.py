@@ -8,9 +8,9 @@ def ThreeNplusOne(x):
             x=x*3+1
             count=count+1
     return count
-x,y=input().split(' ')
-x=int(x)
-y=int(y)
+x,y=[int(i) for i in input().split()]
+k=x
+p=y
 max=ThreeNplusOne(x)
 while x<=y:
     ele=ThreeNplusOne(x)
@@ -19,5 +19,6 @@ while x<=y:
         max=max
     else:
         max=ele
+print('{} {}'.format(k,p),end='')        
 print(max)
 
