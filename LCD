@@ -1,0 +1,61 @@
+n=3
+i=0
+j=0
+l=[]
+y=[]
+t=int(input())
+def fu1():
+    l.append(' ')
+    for a in range(1,n):
+        l.append('-')
+    l.append(' ')
+def fu2():
+    y.append('|')
+    for b in range(1,n):
+        y.append(' ')
+    y.append('|')
+
+pap=fu1()
+plo=fu2()
+v=0
+if t==8:
+    while v<=n:
+        print(l[v],end='')
+        v=v+1
+    print()
+    v=0
+    while v<=n:
+        print(y[v],end='')
+        v=v+1
+    v=0
+    print()
+    while v<=n:
+        print(l[v],end='')
+        v=v+1
+    v=0
+    print()
+    while v<=n:
+        print(y[v],end='')
+        v=v+1
+    v=0
+    print()
+    while v<=n:
+        print(l[v],end='')
+        v=v+1
+if t==7:
+    while v<=n:
+        print(l[v],end='')
+        v=v+1
+    print()
+    v=0
+    j=y
+    j[0]=' '
+    while v<=n:
+        print(j[v],end='')
+        v=v+1
+    v=0
+    print()
+    while v<=n:
+        print(j[v],end='')
+        v=v+1
+    v=0
