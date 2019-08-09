@@ -9,6 +9,10 @@ def ThreeNplusOne(x):
             count=count+1
     return count
 x,y=[int(i) for i in input().split()]
+if x>y:
+    x,y=y,x
+    k=x
+    p=y
 k=x
 p=y
 max=ThreeNplusOne(x)
